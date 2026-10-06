@@ -1,4 +1,4 @@
-"""Tools for the newsau agent.
+"""Tools for the abcau agent.
 
 Each tool has two parts:
   - a schema in OpenAI function-calling format (listed in TOOLS)
@@ -47,7 +47,7 @@ def get_headlines(count=5):
     """Fetch the latest general news headlines from ABC News."""
     count = max(1, min(int(count), 10))
 
-    req = urllib.request.Request(FEED_URL, headers={"User-Agent": "hive-newsau/1.0"})
+    req = urllib.request.Request(FEED_URL, headers={"User-Agent": "hive-abcau/1.0"})
     try:
         with urllib.request.urlopen(req, timeout=10) as resp:
             root = ET.fromstring(resp.read())
