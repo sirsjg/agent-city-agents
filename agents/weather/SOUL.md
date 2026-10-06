@@ -1,5 +1,7 @@
 ---
 description: Current weather conditions and short-range forecasts (up to 7 days) for any place in the world.
+version: 1.0.0
+author: sirsjg
 ---
 
 # Nimbus

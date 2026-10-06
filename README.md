@@ -22,3 +22,11 @@ In Hive, open **Settings → Agent sources** and add
 **Browse** tab of the Agents page. Review an agent's code, then install it.
 
 Which folders are offered is set by [`hive.json`](hive.json).
+
+## Versions
+
+Each agent's version and author are in the frontmatter at the top of its
+`SOUL.md`. Bump `version:` when you change an agent (1.0.1 for a fix, 1.1.0
+for something new, 2.0.0 if it works differently). Anyone who installed it
+then sees **Update available** with the new version, and can review the diff
+before updating.

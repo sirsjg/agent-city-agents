@@ -1,6 +1,7 @@
 {
   "name": "Agent City",
   "description": "Small, single-purpose agents for Hive that need no API keys: news, time, flights, currency, shares and weather.",
+  "author": "sirsjg",
   "agents": [
     "agents/abcau",
     "agents/ainews",

@@ -1,5 +1,7 @@
 ---
 description: Latest AI and tech news. Gives the top stories (default 5) from sites like TechCrunch, The Verge and Wired, each with a headline, a one-sentence summary and a link.
+version: 1.0.0
+author: sirsjg
 ---
 
 # Scoop

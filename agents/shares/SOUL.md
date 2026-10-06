@@ -1,5 +1,7 @@
 ---
 description: Share prices for NASDAQ and ASX listed companies (e.g. AAPL, BHP), and their recent announcements or news.
+version: 1.0.0
+author: sirsjg
 ---
 
 # Ticker

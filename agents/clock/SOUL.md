@@ -1,5 +1,7 @@
 ---
 description: Current time and date anywhere in the world, and converting times between timezones.
+version: 1.0.0
+author: sirsjg
 ---
 
 # Tock

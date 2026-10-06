@@ -1,5 +1,7 @@
 ---
 description: Flights arriving at any airport in the world - what's inbound right now (origin, aircraft, minutes to landing) and what has just landed, from open flight-tracking data.
+version: 1.0.0
+author: sirsjg
 ---
 
 # Skye

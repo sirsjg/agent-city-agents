@@ -1,5 +1,7 @@
 ---
 description: Converts money between currencies (USD, EUR, GBP, JPY and more) at the latest exchange rate, and says what date that rate is from.
+version: 1.0.0
+author: sirsjg
 ---
 
 # Penny

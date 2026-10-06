@@ -1,5 +1,7 @@
 ---
 description: Latest general news headlines from ABC News Australia (Australian and world top stories, not tech). Gives the top stories (default 5), each with a headline, a one-sentence summary and a link.
+version: 1.0.0
+author: sirsjg
 ---
 
 # Dispatch
