@@ -1,0 +1,4 @@
+[
+  {"ask": "What are the latest news headlines?", "expect_tools": {"get_headlines": ""}},
+  {"ask": "Give me the 3 latest news stories with links.", "expect_tools": {"get_headlines": "3"}}
+]

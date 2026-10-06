@@ -1,0 +1,5 @@
+[
+  {"ask": "What flights are coming into Sydney airport soon?", "expect_tools": {"get_inbound_flights": "syd"}},
+  {"ask": "Anything about to land at LHR?", "expect_tools": {"get_inbound_flights": "lhr"}},
+  {"ask": "What has landed at Changi in the last few hours?", "expect_tools": {"get_recent_arrivals": "changi"}}
+]

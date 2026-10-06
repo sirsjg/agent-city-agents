@@ -1,0 +1,5 @@
+[
+  {"ask": "What time is it in Tokyo?", "expect_tools": {"get_time": "asia/tokyo"}},
+  {"ask": "If it's 3pm in Sydney, what time is it in London?", "expect_tools": {"convert_time": "sydney"}},
+  {"ask": "Is it morning in San Francisco?", "expect_tools": {"get_time": "los_angeles"}}
+]

@@ -1,0 +1,5 @@
+[
+  {"ask": "How much is 100 US dollars in euros?", "expect_tools": {"convert": "100"}},
+  {"ask": "Convert 250 pounds to yen.", "expect_tools": {"convert": "GBP"}},
+  {"ask": "What's 40 euros in Swiss francs, and what date is that rate from?", "expect_tools": {"convert": "CHF"}}
+]

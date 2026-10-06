@@ -1,0 +1,4 @@
+[
+  {"ask": "What are the top AI stories today?", "expect_tools": {"get_ai_news": ""}},
+  {"ask": "Give me the 3 latest AI headlines with links.", "expect_tools": {"get_ai_news": "3"}}
+]

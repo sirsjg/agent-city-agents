@@ -1,0 +1,4 @@
+[
+  {"ask": "Should I bring an umbrella in Melbourne tomorrow?", "expect_tools": {"get_weather": "melbourne"}},
+  {"ask": "Will it be warm in Tokyo on Sunday?", "expect_tools": {"get_weather": "tokyo"}}
+]

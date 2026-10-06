@@ -1,0 +1,8 @@
+[
+  {"ask": "What's the Apple share price?", "expect_tools": {"get_share_price": "aapl"}},
+  {"ask": "How is BHP trading on the ASX?", "expect_tools": {"get_share_price": "bhp"}},
+  {"ask": "Any recent announcements from CBA on the ASX?", "expect_tools": {"get_announcements": "cba"}},
+  {"ask": "What's the SpaceX share price?", "expect_tools": {"find_ticker": "spacex", "get_share_price": "spcx"}},
+  {"ask": "How is Corporate Travel Management going on the ASX?", "expect_tools": {"find_ticker": "corporate travel"}},
+  {"ask": "Has Nvidia had any recent news?", "expect_tools": {"get_announcements": "nvda"}}
+]
