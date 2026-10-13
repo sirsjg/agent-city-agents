@@ -1,0 +1,13 @@
+[
+  {"ask": "Which cluster am I connected to?", "expect_tools": {"current_context": ""}},
+  {"ask": "List the pods in the kube-system namespace", "expect_tools": {"list_pods": "kube-system"}},
+  {"ask": "Show me all deployments across every namespace", "expect_tools": {"get_resources": "deploy"}},
+  {"ask": "Describe the web deployment", "expect_tools": {"describe": "web"}},
+  {"ask": "Show the last 30 log lines from pod api-0", "expect_tools": {"pod_logs": "api-0"}},
+  {"ask": "What are the recent events in the default namespace?", "expect_tools": {"events": ""}},
+  {"ask": "How much CPU and memory are my nodes using?", "expect_tools": {"top": "nodes"}},
+  {"ask": "Show me a chart of CPU use by pod across all namespaces", "expect_tools": {"top": ""}},
+  {"ask": "Restart the web deployment", "expect_tools": {"rollout": "restart"}},
+  {"ask": "Is the rollout of the api deployment finished?", "expect_tools": {"rollout": "status"}},
+  {"ask": "Cordon node worker-1", "expect_tools": {"run_kubectl": "cordon"}}
+]

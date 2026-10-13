@@ -1,0 +1,11 @@
+[
+  {"ask": "What containers are running?", "expect_tools": {"list_containers": ""}},
+  {"ask": "Show me all containers, including stopped ones", "expect_tools": {"list_containers": "true"}},
+  {"ask": "What images do I have?", "expect_tools": {"list_images": ""}},
+  {"ask": "Show the last 20 log lines from the web container", "expect_tools": {"container_logs": "web"}},
+  {"ask": "Restart the db container", "expect_tools": {"container_action": "restart"}},
+  {"ask": "Pull nginx:latest", "expect_tools": {"pull_image": "nginx"}},
+  {"ask": "How much CPU and memory are my containers using?", "expect_tools": {"container_stats": ""}},
+  {"ask": "How much disk space is Docker using?", "expect_tools": {"disk_usage": ""}},
+  {"ask": "List my docker networks", "expect_tools": {"run_docker": "network"}}
+]
