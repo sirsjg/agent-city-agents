@@ -1,0 +1,6 @@
+[
+  {"ask": "Any unread email today?", "expect_tools": {"search_messages": "unread"}},
+  {"ask": "Find the last email from Sam about the invoice", "expect_tools": {"search_messages": "invoice"}},
+  {"ask": "Draft an email to ann@example.com saying I'll be ten minutes late", "expect_tools": {"create_draft": "ann@example.com"}},
+  {"ask": "Show me my latest emails", "expect_tools": {"search_messages": ""}}
+]

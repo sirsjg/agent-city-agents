@@ -1,12 +1,14 @@
 {
   "name": "Agent City",
-  "description": "Small, single-purpose agents for Hive that need no API keys: news, time, flights, currency, shares and weather.",
+  "description": "Small, single-purpose agents for Agent City: news, time, flights, currency, shares, weather, Gmail and Cloudflare DNS.",
   "author": "sirsjg",
   "agents": [
     "agents/abcau",
     "agents/ainews",
     "agents/clock",
+    "agents/cloudflare_dns",
     "agents/flights",
+    "agents/gmail",
     "agents/money",
     "agents/shares",
     "agents/weather"

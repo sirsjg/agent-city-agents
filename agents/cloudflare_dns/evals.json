@@ -1,0 +1,8 @@
+[
+  {"ask": "Which domains are in my Cloudflare account?", "expect_tools": {"list_zones": ""}},
+  {"ask": "Show me the DNS records for example.com", "expect_tools": {"list_records": "example.com"}},
+  {"ask": "What are the MX records on example.com?", "expect_tools": {"list_records": "mx"}},
+  {"ask": "Add an A record for www on example.com pointing to 203.0.113.10", "expect_tools": {"create_record": "203.0.113.10"}},
+  {"ask": "Back up the DNS for example.com", "expect_tools": {"export_records": "example.com"}},
+  {"ask": "Is DNSSEC enabled on example.com?", "expect_tools": {"get_dnssec": "example.com"}}
+]
