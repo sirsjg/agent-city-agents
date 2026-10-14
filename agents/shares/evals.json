@@ -4,5 +4,6 @@
   {"ask": "Any recent announcements from CBA on the ASX?", "expect_tools": {"get_announcements": "cba"}},
   {"ask": "What's the SpaceX share price?", "expect_tools": {"find_ticker": "spacex", "get_share_price": "spcx"}},
   {"ask": "How is Corporate Travel Management going on the ASX?", "expect_tools": {"find_ticker": "corporate travel"}},
+  {"ask": "Show me the Microsoft share price on a chart", "expect_tools": {"get_share_price": "msft"}},
   {"ask": "Has Nvidia had any recent news?", "expect_tools": {"get_announcements": "nvda"}}
 ]
