@@ -1,0 +1,5 @@
+[
+  {"ask": "Anything new on X? Who's mentioning me?", "expect_tools": {"my_mentions": ""}},
+  {"ask": "What are people on X saying about the Artemis launch?", "expect_tools": {"search_posts": "artemis"}},
+  {"ask": "Catch me up on my X feed", "expect_tools": {"home_timeline": ""}}
+]

@@ -1,0 +1,6 @@
+[
+  {"ask": "Any errors in the logs in the last hour?", "expect_tools": {"search_logs": ""}},
+  {"ask": "What is failing the most today?", "expect_tools": {"error_summary": ""}},
+  {"ask": "Show me warnings mentioning timeout from the last 30 minutes", "expect_tools": {"search_logs": "timeout"}},
+  {"ask": "Chart the errors over the last 6 hours", "expect_tools": {"log_trend": ""}}
+]
