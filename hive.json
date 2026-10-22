@@ -1,6 +1,6 @@
 {
   "name": "Agent City",
-  "description": "Small, single-purpose agents for Agent City: news, time, flights, currency, shares, weather, Gmail, Cloudflare DNS, Docker and Kubernetes.",
+  "description": "Single-purpose agents for Agent City: news, time, flights, currency, shares, weather, Telegram, Signal, X, Gmail, Seq logs, Cloudflare DNS, Docker and Kubernetes.",
   "author": "sirsjg",
   "agents": [
     "agents/abcau",
@@ -12,7 +12,11 @@
     "agents/gmail",
     "agents/kubectl",
     "agents/money",
+    "agents/seq",
     "agents/shares",
-    "agents/weather"
+    "agents/signal",
+    "agents/telegram",
+    "agents/weather",
+    "agents/x"
   ]
 }

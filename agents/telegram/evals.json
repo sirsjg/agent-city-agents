@@ -1,0 +1,4 @@
+[
+  {"ask": "Anything urgent on Telegram?", "expect_tools": {"unread_chats": ""}},
+  {"ask": "Find the Telegram message where someone mentioned the dentist", "expect_tools": {"search_messages": "dentist"}}
+]

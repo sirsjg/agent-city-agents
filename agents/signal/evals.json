@@ -1,0 +1,4 @@
+[
+  {"ask": "Anything urgent on Signal?", "expect_tools": {"unread_chats": ""}},
+  {"ask": "Search my Signal messages for the flight number", "expect_tools": {"search_messages": "flight"}}
+]
